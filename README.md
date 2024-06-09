@@ -7,5 +7,5 @@ _This website is under construction_
 
 ## Basic Information
 
-- [Curriculum Vitae]()
+- [Curriculum Vitae](https://felipecybis.github.io/curriculum_vitae/resume.pdf)
 - [My Github page](https://github.com/FelipeCybis)
