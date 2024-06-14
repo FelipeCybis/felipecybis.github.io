@@ -1,0 +1,32 @@
+---
+title: Felipe Cybis Pereira
+image: img/profile.png
+page-layout: full
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: twitter-x
+      href: https://x.com/FCybis
+    - icon: github
+      href: https://github.com/FelipeCybis
+    - icon: envelope-at
+      href: mailto:felipe.cybispereira@gmail.com
+    - icon: CV
+      text: CV
+      href: https://felipecybis.github.io/curriculum_vitae/resume.pdf
+    - icon: linkedin
+      href: https://www.linkedin.com/in/felipe-cybis-pereira-52ba0214b/
+---
+
+## Hi there, I am Felipe 👋
+
+I am currently a PhD candidate studying freely-moving rats with functional Ultrasound imaging 🐀🩻📈.  
+I work at [Physics for Medicine Paris](https://www.physicsformedicine.espci.fr) under the supervision of [Mickaël Tanter](https://www.physicsformedicine.espci.fr/tanter-mickael/) and [Sophie Pezet](https://www.physicsformedicine.espci.fr/pezet-sophie/).
+
+_This website is under construction_
+
+## Basic Information
+
+- [Curriculum Vitae](https://felipecybis.github.io/curriculum_vitae/resume.pdf)

@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Felipe Cybis Pereira"
+  navbar:
+    right:
+      - text: About
+        href: index.qmd
+      - icon: github
+        href: https://github.com/FelipeCybis/felipecybis.github.io
+
+format:
+  html:
+    theme: cosmo dark
+    css: styles.css
+
+
+
