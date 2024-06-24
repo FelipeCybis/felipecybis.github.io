@@ -1,9 +1,15 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2024-06-14"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "Quarto (revealjs) PhysMed template"
+date: "2024-06-24"
+categories: [physmed, revealjs, quarto]
+format:
+    html:
+        grid: 
+            body-width: 800px
 ---
 
-This is a post with executable code.
+Quarto/revealjs template for the Physics for Medicine Paris. This is the [demo](https://felipecybis.github.io/quarto-physmed-template/) I made for my presentations using quarto.
+
+```{=html}
+<iframe class="slide-deck" src="https://felipecybis.github.io/quarto-physmed-template/" style="width: 800px; height:450px;"></iframe>
+```
