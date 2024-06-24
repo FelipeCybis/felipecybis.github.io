@@ -28,8 +28,8 @@
     "text": "Basic Information\n\nCurriculum Vitae"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posts/physmed-quarto-revealjs/index.html",
+    "href": "posts/physmed-quarto-revealjs/index.html",
     "title": "Quarto (revealjs) PhysMed template",
     "section": "",
     "text": "Quarto/revealjs template for the Physics for Medicine Paris. This is the demo I made for my presentations using quarto."
