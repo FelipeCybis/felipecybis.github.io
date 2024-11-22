@@ -25,7 +25,7 @@
     "href": "index.html#basic-information",
     "title": "Felipe Cybis Pereira",
     "section": "Basic Information",
-    "text": "Basic Information\n\nCurriculum Vitae\nMy Github page"
+    "text": "Basic Information\n\nCurriculum Vitae\nMy Github page\n\n\n\nAbout this website\nI am using Quarto to build this website and to publish it to Github with quarto publish gh-pages (see more here)."
   },
   {
     "objectID": "posts/physmed-quarto-revealjs/index.html",
