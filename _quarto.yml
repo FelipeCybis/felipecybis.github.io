@@ -9,6 +9,10 @@ website:
         href: index.qmd
       - icon: github
         href: https://github.com/FelipeCybis/felipecybis.github.io
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        href: https://bsky.app/profile/felipecybis.bsky.social
+      - text: "{{< iconify fa6-brands orcid >}}"
+        href: https://orcid.org/0009-0009-6124-0466
 
 format:
   html:

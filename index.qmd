@@ -7,17 +7,20 @@ about:
   image-width: 20em
   image-shape: round
   links:
-    - icon: twitter-x
-      href: https://x.com/FCybis
     - icon: github
       href: https://github.com/FelipeCybis
     - icon: envelope-at
       href: mailto:felipe.cybispereira@gmail.com
-    - icon: CV
-      text: CV
+    - text: CV
       href: https://felipecybis.github.io/curriculum_vitae/resume.pdf
+    - icon: twitter-x
+      href: https://x.com/FCybis
+    - text: "{{< iconify fa6-brands bluesky >}}"
+      href: https://bsky.app/profile/felipecybis.bsky.social 
     - icon: linkedin
       href: https://www.linkedin.com/in/felipe-cybis-pereira-52ba0214b/
+    - text: "{{< iconify fa6-brands orcid >}}"
+      href: https://orcid.org/0009-0009-6124-0466
 ---
 
 ## Hi there, I am Felipe 👋
