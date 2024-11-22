@@ -23,13 +23,12 @@ about:
       href: https://orcid.org/0009-0009-6124-0466
 ---
 
-## Hi there, I am Felipe 👋
+{{< include README.md >}}
 
-I am currently a PhD candidate studying freely-moving rats with functional Ultrasound imaging 🐀🩻📈.  
-I work at [Physics for Medicine Paris](https://www.physicsformedicine.espci.fr) under the supervision of [Mickaël Tanter](https://www.physicsformedicine.espci.fr/tanter-mickael/) and [Sophie Pezet](https://www.physicsformedicine.espci.fr/pezet-sophie/).
 
-_This website is under construction_
+---
 
-## Basic Information
+#### About this website
 
-- [Curriculum Vitae](https://felipecybis.github.io/curriculum_vitae/resume.pdf)
+I am using [Quarto](https://quarto.org) to build this website
+and to publish it to Github with `quarto publish gh-pages` (see more [here](https://quarto.org/docs/publishing/github-pages.html)).
