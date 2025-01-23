@@ -7,19 +7,19 @@ about:
   image-width: 20em
   image-shape: round
   links:
-    - icon: github
+    - text: "{{< iconify fa6-brands github height=2em >}}"
       href: https://github.com/FelipeCybis
-    - icon: envelope-at
+    - text: "{{< iconify bi envelope-at height=2em >}}"
       href: mailto:felipe.cybispereira@gmail.com
-    - text: CV
+    - text: "{{< iconify academicons cv height=2em >}}"
       href: https://felipecybis.github.io/curriculum_vitae/resume.pdf
-    - icon: twitter-x
-      href: https://x.com/FCybis
-    - text: "{{< iconify fa6-brands bluesky >}}"
+    - text: "{{< iconify academicons google-scholar height=2em >}}"
+      href: https://scholar.google.fr/citations?user=7DGis1wAAAAJ&hl=fr&oi=ao
+    - text: "{{< iconify fa6-brands bluesky height=2em >}}"
       href: https://bsky.app/profile/felipecybis.bsky.social 
-    - icon: linkedin
+    - text: "{{< iconify fa6-brands linkedin height=2em >}}"
       href: https://www.linkedin.com/in/felipe-cybis-pereira-52ba0214b/
-    - text: "{{< iconify fa6-brands orcid >}}"
+    - text: "{{< iconify fa6-brands orcid height=2em >}}"
       href: https://orcid.org/0009-0009-6124-0466
 ---
 
