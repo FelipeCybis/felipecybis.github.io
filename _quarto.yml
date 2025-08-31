@@ -7,6 +7,8 @@ website:
     right:
       - text: About
         href: index.qmd
+      - text: Posts
+        href: posts/index.qmd
       - icon: github
         href: https://github.com/FelipeCybis/felipecybis.github.io
       - text: "{{< iconify fa6-brands bluesky >}}"
