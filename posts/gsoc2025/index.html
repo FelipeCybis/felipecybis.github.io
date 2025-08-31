@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Felipe Cybis Pereira">
+<meta name="dcterms.date" content="2025-08-30">
 
-<title>Felipe Cybis Pereira</title>
+<title>GSOC 2025: 3D edition of masks – Felipe Cybis Pereira</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,30 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-3aa970819e70fbc78806154e5a1fcd28.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2c39e83ff40b66b4eec37be4204126c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-3aa970819e70fbc78806154e5a1fcd28.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2c39e83ff40b66b4eec37be4204126c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,19 +78,19 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Felipe Cybis Pereira</span>
     </a>
   </div>
@@ -93,11 +101,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html"> 
+    <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item compact">
@@ -121,72 +129,175 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">GSOC 2025: 3D edition of masks</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">code</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Felipe Cybis Pereira </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 30, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="img/profile.png" class="about-image
-  round " style="height: 20em; width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Felipe Cybis Pereira</h1>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>This blog post is here as the final work product of my <a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> 2025 project with the InVesalius organization, entitled <a href="https://summerofcode.withgoogle.com/programs/2025/projects/H1nIn5ni">3D edition of masks</a>.</p>
+<section id="overview-of-invesalius-3" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-invesalius-3">Overview of InVesalius 3</h2>
+<p><a href="https://invesalius.github.io">InVesalius 3</a> (<a href="https://github.com/invesalius/invesalius3">invesalius/invesalius3 <iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></a>) is a medical imaging software that generates 3D reconstructions from DICOM files acquired with CT or MRI equipment. The software provides comprehensive tools for medical image analysis including segmentation, surface creation, volume rendering, and various measurement tools. InVesalius also has impressive 3D printing support and exports 3D models in <code>.stl</code>, <code>.obj</code>, and <code>.ply</code> formats.</p>
+<div id="fig-invesalius" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-invesalius-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<a href="invesalius.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: The InVesalius 3 interface"><img src="invesalius.png" class="img-fluid figure-img"></a>
 </div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/FelipeCybis" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="mailto:felipe.cybispereira@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="bi:envelope-at" aria-label="Icon envelope-at from bi Iconify.design set." title="Icon envelope-at from bi Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="https://felipecybis.github.io/curriculum_vitae/resume.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:cv" aria-label="Icon cv from academicons Iconify.design set." title="Icon cv from academicons Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="https://scholar.google.fr/citations?user=7DGis1wAAAAJ&amp;hl=fr&amp;oi=ao" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:google-scholar" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="https://bsky.app/profile/felipecybis.bsky.social" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="https://www.linkedin.com/in/felipe-cybis-pereira-52ba0214b/" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
-  <a href="https://orcid.org/0009-0009-6124-0466" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set." height="2em"></iconify-icon></span>
-  </a>
 </div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<section id="hi-there-i-am-felipe" class="level2">
-<h2 data-anchor-id="hi-there-i-am-felipe">Hi there, I am Felipe 👋</h2>
-<p>I am currently a PhD candidate studying freely-moving rats with functional Ultrasound imaging 🐀🩻📈.<br>
-I work at <a href="https://www.physicsformedicine.espci.fr">Physics for Medicine Paris</a> under the supervision of <a href="https://www.physicsformedicine.espci.fr/tanter-mickael/">Mickaël Tanter</a> and <a href="https://www.physicsformedicine.espci.fr/pezet-sophie/">Sophie Pezet</a>.</p>
-<p><em>This website is under construction</em></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-invesalius-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The InVesalius 3 interface
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="basic-information" class="level2">
-<h2 data-anchor-id="basic-information">Basic Information</h2>
+<section id="project-goals" class="level2">
+<h2 class="anchored" data-anchor-id="project-goals">Project Goals</h2>
+<p>The standard workflow in InVesalius 3 is creating/manipulating masks and transforming them into surfaces. Different tools to edit these masks already exist, whether it is manually or by automatically thresholding certain intensity values (see <a href="#fig-edition" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<div id="fig-edition" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./predefined_thresholds.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Automatically thresholding"><img src="./predefined_thresholds.png" class="img-fluid figure-img"></a></p>
+<figcaption>Automatically thresholding</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./manual_edition.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Manual options for 2D editing"><img src="./manual_edition.png" class="img-fluid figure-img"></a></p>
+<figcaption>Manual options for 2D editing</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Manual and automatic 2D mask edition options in InVesalius 3.
+</figcaption>
+</figure>
+</div>
+<p>However, these tools are limited to 2D slices, which can be tedious and time-consuming. <strong>The project goal was to implement 3D mask edition tools</strong> to allow users to edit masks directly in the 3D view, making the process more intuitive and efficient. A typical use case is removing unwanted structures with similar intensity values as the target structure (see <a href="#fig-3dct" class="quarto-xref">Figure&nbsp;3</a>).</p>
+<div id="fig-3dct" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-3dct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<a href="./problem_3D.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;3: Typical 3D surfaces to be removed from a surface created when intensity thresholding is chosen for bone structures in CT scans."><img src="./problem_3D.png" class="img-fluid figure-img"></a>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-3dct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Typical 3D surfaces to be removed from a surface created when intensity thresholding is chosen for bone structures in CT scans.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-was-implemented" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-implemented">What Was Implemented</h2>
+<p>A halfway through solution for this project was proposed in <a href="https://github.com/invesalius/invesalius3/pull/822">GSOC 2024</a>, but the PR was never merged. The current implementation continues from this unmerged PR. The exact code can be found <a href="https://github.com/invesalius/invesalius3/pull/1006">here <iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></a>.</p>
+<section id="core-3d-mask-editing-system" class="level3">
+<h3 class="anchored" data-anchor-id="core-3d-mask-editing-system">Core 3D Mask Editing System</h3>
 <ul>
-<li><a href="https://felipecybis.github.io/curriculum_vitae/resume.pdf">Curriculum Vitae</a></li>
-<li><a href="https://github.com/FelipeCybis">My Github page</a></li>
+<li><strong>Interactive 3D Polygon Selection</strong>: Users can draw polygons directly on the 3D volume renderer to define regions for mask editing (keep/exclude inside polygon). The polygons are drawn in the screen space and projected into the 3D volume based on the current camera view.</li>
+<li><strong>Real-Time Visualization</strong>: The current implementation provides immediate visual feedback of the masked volume as the polygons are modified and ajusted.</li>
+<li><strong>Custom Cython Extension</strong>: Optimized Cython code for high-performance that computes the volumetric projection of the polygons.</li>
 </ul>
-<hr>
-<section id="about-this-website" class="level4">
-<h4 data-anchor-id="about-this-website">About this website</h4>
-<p>I am using <a href="https://quarto.org">Quarto</a> to build this website and to publish it to Github with <code>quarto publish gh-pages</code> (see more <a href="https://quarto.org/docs/publishing/github-pages.html">here</a>).</p>
-
-
 </section>
-</section>
-</main></div>
+<section id="user-interface" class="level3">
+<h3 class="anchored" data-anchor-id="user-interface">User Interface</h3>
+<ul>
+<li><strong>VTK Style Integration</strong>: The 3D editing mode is integrated into the existing VTK-based interaction system. The style is automatically updated when checking the checkbox for 3D manual editing. This was extensively refactored to ensure camera-aware polygon projection and for the style to be better integrated with the application state overall, for example:
+<ul>
+<li>Drawing polygons and then deleting them with the “Clear polygons” button will restore the mask to its original state.</li>
+<li>The style is now camera-aware, meaning that if the user rotates the 3D view, the polygons will be reprojected correctly.</li>
+<li>The polygon drawing has keyboard shortcuts that are very similar to other “polygon-drawing” tools in the application, such as the “Measure” tool.</li>
+</ul></li>
+</ul>
+<div id="vid-3dedit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-vid figure">
+<div aria-describedby="vid-3dedit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="./3d_editing.mp4"></video></div>
 </div>
- <!-- /main -->
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-vid" id="vid-3dedit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Video&nbsp;1: Video of the polygon drawing and mask edition in 3D view.
+</figcaption>
+</figure>
+</div>
+<p><em>Disclaimer:</em> Final feedback from InVesalius mainteiners is still pending, so some functionalities may change before final merging of the pull request.</p>
+</section>
+</section>
+<section id="bonus-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="bonus-implementation">Bonus implementation</h2>
+<p>During the above implementation process, I also contributed to a debugging tool for the InVesalius 3 application. We are talking about a wx-based GUI application here and it can be tricky to debug when you are not in the correct context or state of the application (for example, a few buttons and dropbdown menus must be clicked before entering the VTK style for 3D mask edition). Luckily, <code>wxPython</code> provides a shell tool that can be opened as a separate panel inside the application itself and that has access to the entire application state.</p>
+<p>The complete implementation can be found in <a href="https://github.com/invesalius/invesalius3/pull/1008">this merged PR <iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></a>. Here is a small video of how this tool works:</p>
+<div id="vid-shell" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-vid figure">
+<div aria-describedby="vid-shell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video"><video id="video_shortcode_videojs_video2" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="./shell.mp4"></video></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-vid" id="vid-shell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Video&nbsp;2: Interactive shell embedded in the InVesalius 3 application, with access to the entire application state.
+</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -578,6 +689,40 @@ I work at <a href="https://www.physicsformedicine.espci.fr">Physics for Medicine
   });
   </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
+<script>videojs(video_shortcode_videojs_video2);</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

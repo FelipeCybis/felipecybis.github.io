@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/welcome/index.html</loc>
-    <lastmod>2024-06-14T16:59:26.526Z</lastmod>
+    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/physmed-quarto-revealjs/index.html</loc>
+    <lastmod>2025-08-31T15:01:45.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/index.html</loc>
+    <lastmod>2025-08-31T16:26:26.459Z</lastmod>
   </url>
   <url>
     <loc>https://FelipeCybis.github.io/felipecybis.github.io/index.html</loc>
-    <lastmod>2025-01-23T13:19:35.253Z</lastmod>
+    <lastmod>2025-08-31T19:54:06.091Z</lastmod>
   </url>
   <url>
-    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/physmed-quarto-revealjs/index.html</loc>
-    <lastmod>2024-06-24T15:23:30.422Z</lastmod>
+    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/gsoc2025/index.html</loc>
+    <lastmod>2025-08-31T20:40:22.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FelipeCybis.github.io/felipecybis.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-08-31T15:01:45.482Z</lastmod>
   </url>
 </urlset>
