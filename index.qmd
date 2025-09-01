@@ -2,6 +2,7 @@
 title: Felipe Cybis Pereira
 image: img/profile.png
 page-layout: full
+toc: false
 about:
   template: trestles
   image-width: 20em

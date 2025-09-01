@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Felipe Cybis Pereira"
+  bread-crumbs: false
+  back-to-top-navigation: true
+  repo-url: https://github.com/FelipeCybis/felipecybis.github.io
+  repo-actions: [source, issue]
   navbar:
     right:
       - text: About
@@ -16,10 +20,19 @@ website:
       - text: "{{< iconify fa6-brands orcid >}}"
         href: https://orcid.org/0009-0009-6124-0466
 
+  sidebar:
+    - id: posts
+      style: "docked"
+      contents: posts
+
 format:
   html:
-    theme: cosmo dark
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
     css: styles.css
+    respect-user-color-scheme: true
 
 
 
