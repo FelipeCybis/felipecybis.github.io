@@ -65,7 +65,7 @@ is chosen for bone structures in CT scans.
 A halfway through solution for this project was proposed in [GSOC
 2024](https://github.com/invesalius/invesalius3/pull/822), but the PR was never merged.
 The current implementation continues from this unmerged PR. The exact code can be found
-[here {{< iconify fa6-brands github >}}
+[here (*merged 01/09/2025*) {{< iconify fa6-brands github >}}
 ](https://github.com/invesalius/invesalius3/pull/1006).
 
 ### Core 3D Mask Editing System
@@ -100,10 +100,6 @@ overall, for example:
 Video of the polygon drawing and mask edition in 3D view.
 
 :::
-
-
-*Disclaimer:* Final feedback from InVesalius mainteiners is still pending, so some
-functionalities may change before final merging of the pull request.
 
 ## Bonus implementation
 
