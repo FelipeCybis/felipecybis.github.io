@@ -1,34 +1,14 @@
 [
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "posts/physmed-quarto-revealjs/index.html",
+    "href": "posts/physmed-quarto-revealjs/index.html",
+    "title": "Quarto (revealjs) PhysMed template",
     "section": "",
-    "text": "GSOC 2025: 3D edition of masks\n\n\n\ncode\n\n\n\n\n\n\n\n\n\nAug 30, 2025\n\n\nFelipe Cybis Pereira\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto (revealjs) PhysMed template\n\n\n\nphysmed\n\nrevealjs\n\nquarto\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nFelipe Cybis Pereira\n\n\n\n\n\nNo matching items\n Back to top",
+    "text": "Quarto/revealjs template for the Physics for Medicine Paris. This is the demo I made for my presentations using quarto.\n\n\n\n\n Back to top",
     "crumbs": [
-      "Posts"
+      "Posts",
+      "Quarto (revealjs) PhysMed template"
     ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Felipe Cybis Pereira",
-    "section": "",
-    "text": "I am currently a PhD candidate studying freely-moving rats with functional Ultrasound imaging 🐀🩻📈.\nI work at Physics for Medicine Paris under the supervision of Mickaël Tanter and Sophie Pezet.\nThis website is under construction"
-  },
-  {
-    "objectID": "index.html#hi-there-i-am-felipe",
-    "href": "index.html#hi-there-i-am-felipe",
-    "title": "Felipe Cybis Pereira",
-    "section": "",
-    "text": "I am currently a PhD candidate studying freely-moving rats with functional Ultrasound imaging 🐀🩻📈.\nI work at Physics for Medicine Paris under the supervision of Mickaël Tanter and Sophie Pezet.\nThis website is under construction"
-  },
-  {
-    "objectID": "index.html#basic-information",
-    "href": "index.html#basic-information",
-    "title": "Felipe Cybis Pereira",
-    "section": "Basic Information",
-    "text": "Basic Information\n\nCurriculum Vitae\nMy Github page\n\n\n\nAbout this website\nI am using Quarto to build this website and to publish it to Github with quarto publish gh-pages (see more here)."
   },
   {
     "objectID": "posts/gsoc2025/index.html",
@@ -86,14 +66,34 @@
     ]
   },
   {
-    "objectID": "posts/physmed-quarto-revealjs/index.html",
-    "href": "posts/physmed-quarto-revealjs/index.html",
-    "title": "Quarto (revealjs) PhysMed template",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Felipe Cybis Pereira",
     "section": "",
-    "text": "Quarto/revealjs template for the Physics for Medicine Paris. This is the demo I made for my presentations using quarto.\n\n\n\n\n Back to top",
+    "text": "I have recently defended my PhD project where I studied freely-moving rats with functional Ultrasound imaging 🐀🩻📈.\nI am currently a post-doc at Physics for Medicine Paris under the supervision of Mickaël Tanter and Sophie Pezet.\nThis website is under construction"
+  },
+  {
+    "objectID": "index.html#hi-there-i-am-felipe",
+    "href": "index.html#hi-there-i-am-felipe",
+    "title": "Felipe Cybis Pereira",
+    "section": "",
+    "text": "I have recently defended my PhD project where I studied freely-moving rats with functional Ultrasound imaging 🐀🩻📈.\nI am currently a post-doc at Physics for Medicine Paris under the supervision of Mickaël Tanter and Sophie Pezet.\nThis website is under construction"
+  },
+  {
+    "objectID": "index.html#basic-information",
+    "href": "index.html#basic-information",
+    "title": "Felipe Cybis Pereira",
+    "section": "Basic Information",
+    "text": "Basic Information\n\nCurriculum Vitae\nMy Github page\n\n\n\nAbout this website\nI am using Quarto to build this website and to publish it to Github with quarto publish gh-pages (see more here)."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "GSOC 2025: 3D edition of masks\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\nAug 30, 2025\n\n\nFelipe Cybis Pereira\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto (revealjs) PhysMed template\n\n\n\n\n\n\nphysmed\n\n\nrevealjs\n\n\nquarto\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nFelipe Cybis Pereira\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
-      "Posts",
-      "Quarto (revealjs) PhysMed template"
+      "Posts"
     ]
   }
 ]
